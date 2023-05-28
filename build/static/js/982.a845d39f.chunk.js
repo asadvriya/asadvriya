@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkasadvriya=self.webpackChunkasadvriya||[]).push([[982],{982:function(a,n,e){e.r(n),e.d(n,{default:function(){return s}});e(791);var r=e(184);function s(){return(0,r.jsx)("nav",{className:"nav",children:"Nav"})}}}]);
-//# sourceMappingURL=982.a845d39f.chunk.js.map

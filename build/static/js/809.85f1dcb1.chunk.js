@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkasadvriya=self.webpackChunkasadvriya||[]).push([[809],{809:function(e,r,a){a.r(r),a.d(r,{default:function(){return t}});a(791);var n=a(184);function t(){return(0,n.jsx)("footer",{className:"footer",children:"Footer"})}}}]);
-//# sourceMappingURL=809.85f1dcb1.chunk.js.map
