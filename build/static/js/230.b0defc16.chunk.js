@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkasadvriya=self.webpackChunkasadvriya||[]).push([[230],{822:function(a,s,e){e.r(s),e.d(s,{default:function(){return c}});e(791);var n=e.p+"static/media/name-logo.2eaafa671acb6680a3d9.png",r=e(184);function c(){return(0,r.jsxs)("header",{className:"header",children:[(0,r.jsx)("div",{className:"name-logo",children:(0,r.jsx)("img",{src:n,alt:""})}),(0,r.jsxs)("h1",{className:"site-title",children:[(0,r.jsx)("span",{children:"AvR"}),(0,r.jsx)("span",{children:" Md. Asad Chowdhary"})]})]})}}}]);
+//# sourceMappingURL=230.b0defc16.chunk.js.map
