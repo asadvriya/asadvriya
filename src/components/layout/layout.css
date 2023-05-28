@@ -1,0 +1,23 @@
+header{
+    height: 96px;
+    background-color: gainsboro;
+}
+
+nav{
+    background-color: magenta;
+    height: 49px;
+    position: sticky;
+    top: 6px;
+}
+
+main{
+    background-color: rgb(255, 254, 195);
+    min-height: 360px;
+}
+
+footer{
+    background-color: antiquewhite;
+    height: 48px;
+    position:sticky;
+    bottom: 9px;
+}
