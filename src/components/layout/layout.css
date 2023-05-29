@@ -1,20 +1,21 @@
 
-
-nav{
-    background-color: magenta;
-    height: 49px;
-    position: sticky;
-    top: 6px;
-}
-
-main{
-    background-color: rgb(255, 254, 195);
+main {
+    background-color: #8988425e;
+    width: 51vw;
+    margin-top: 10px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 34px;
     min-height: 360px;
 }
 
-footer{
-    background-color: antiquewhite;
-    height: 48px;
-    position:sticky;
-    bottom: 9px;
+
+@media screen and (max-width:600px) {
+    main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
 }

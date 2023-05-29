@@ -1,21 +1,25 @@
 header{
-    height: 96px;
-    background-color: gainsboro;
-    display: flex;
     align-items: center;
+    background-color: #99088245;
+    display: flex;
+    height: 96px;
 }
 
 .name-logo>img{
     height: 80px;
-    margin: 4px;
-    margin-right: 3vw;
-    border-radius: 50%;
+    margin: 4px 3vw 4px 4px;
+    border-top-left-radius: 108px;
+    filter: brightness(2.5) contrast(1.5) hue-rotate(310deg);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 63px;
+    border-bottom-left-radius: 57px;
 }
 .site-title{
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: navy;
+    font-family: Akaya Kanadaka;
+    color: #e3face;
     font-size: calc(25px + 11 * ((100vw - 320px) / 680));
 }

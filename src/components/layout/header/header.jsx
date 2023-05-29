@@ -9,7 +9,7 @@ export default function Header() {
           <img src={logo} alt="" />          
         </div>
         <h1 className='site-title'>
-          <span>AvR</span>
+          <span>AvR (asadvriya)</span>
           <span> Md. Asad Chowdhary</span>
         </h1>
     </header>
