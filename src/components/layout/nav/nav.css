@@ -55,7 +55,7 @@ nav {
         display: block;
     }
 
-    .menu-icon>li {
+    .menu-icon>ul>li {
         list-style: none;
         line-height: 0;
         width: 25px;

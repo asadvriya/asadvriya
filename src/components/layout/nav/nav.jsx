@@ -18,9 +18,11 @@ export default function Nav() {
   return (
     <nav className="nav" >
       <div className="menu-icon" onClick={showMenu}>
+        <ul>
         <li></li>
         <li></li>
         <li></li>
+        </ul>
       </div>
       <div id="nav-menu">
         <ul className='nav-links'>
