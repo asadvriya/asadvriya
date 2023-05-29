@@ -4,13 +4,13 @@ export default function HomePage() {
   return (
     <main>
       <main>
-        Homepage        
+        Homepage
+      </main>
+      Homepage
+      <main>
+        Homepage
+      </main>
     </main>
-        Homepage 
-        <main>
-        Homepage        
-    </main>       
-    </main>
-    
+
   );
 };

@@ -1,11 +1,11 @@
-header{
+header {
     align-items: center;
     background-color: #99088245;
     display: flex;
     height: 96px;
 }
 
-.name-logo>img{
+.name-logo>img {
     height: 80px;
     margin: 4px 3vw 4px 4px;
     border-top-left-radius: 108px;
@@ -14,7 +14,8 @@ header{
     border-bottom-right-radius: 63px;
     border-bottom-left-radius: 57px;
 }
-.site-title{
+
+.site-title {
     text-align: center;
     display: flex;
     flex-direction: column;
