@@ -1,9 +1,27 @@
 import React from 'react';
 import './nav.css';
 
+function showMenu(){
+  var x= document.getElementById("nav-menu");
+  if(x.style.display==="block"){
+    x.style.display="none";}
+    else {
+      x.style.display="block";
+    }
+  }
+
+
 export default function Nav() {
+  
+
   return (
-    <nav className="nav">
+    <nav className="nav" >
+      <div className="menu-icon" onClick={showMenu}>
+        <li></li>
+        <li></li>
+        <li></li>
+      </div>
+          <div id="nav-menu">
           <ul className='nav-links'>
             <li>
               <a href="/">Home</a>
@@ -20,8 +38,8 @@ export default function Nav() {
             <li>
               <a href="/about">About Me</a>
             </li>
-
           </ul>
+          </div>
     </nav>
   );
 };
