@@ -1,4 +1,4 @@
-header {
+#root>header {
     align-items: center;
     background-color: #99088245;
     display: flex;
