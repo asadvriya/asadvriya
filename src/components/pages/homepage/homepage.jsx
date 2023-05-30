@@ -46,7 +46,7 @@ export default function HomePage() {
 
           </p>
           <footer>
-            <address>... <span className="author">Md. Asad Chowdhary</span> <time>31 May, 2023</time>  </address>
+            <address><span className="author">~ Md. Asad Chowdhary</span> <time>31 May, 2023</time>  </address>
           </footer>
 
         </pre>
