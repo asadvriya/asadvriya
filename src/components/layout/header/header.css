@@ -22,5 +22,6 @@
     align-items: center;
     font-family: Akaya Kanadaka;
     color: #e3face;
+    text-shadow: 0px 0px 20px #190258;
     font-size: calc(25px + 11 * ((100vw - 320px) / 680));
 }

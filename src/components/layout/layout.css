@@ -1,51 +1,69 @@
-main{
+main {
     display: flex;
     justify-content: center;
 }
 
 main>article {
+    background-image: url(article-image.jpg);
+    filter: brightness(.9);
+    background-size: cover;
     display: flex;
     justify-content: center;
     background-color: #e9bbd7b3;
     width: 67vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     min-height: 360px;
     margin-bottom: 5vh;
     border-radius: 11px;
 }
-article>pre{
-    color: rgb(83, 7, 99);
-font-weight: bold;
+
+article>pre {
+    color: #23012a;
+    background-color: #e672ff26;
+    font-weight: 700;
+    border-radius: inherit;
+    margin: 10px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    box-shadow: 0px 0px 20px 0px #8631e1bd;
 }
-article>pre>p{
+
+article>pre>p {
     font-size: large;
     padding-left: 3vw;
     font-family: Atma;
     text-shadow: 0px 0px 2px rgba(248, 99, 198, 0.781);
 }
-article>pre>p>section{
-margin-bottom: 19px;
-line-height: 27px;
+
+article>pre>p>section {
+    margin-bottom: 19px;
+    line-height: 27px;
 }
-article>pre>header{
+
+article>pre>header {
     font-family: Galada;
-    text-shadow: 1px 0px 3px white;
-    color: rgb(25, 0, 255);
+    text-shadow: 0px 0px 3px #13ff00;
+    color: rgb(1 0 82);
 }
-footer>address{
-    display: flex;align-items: center;
+
+footer>address {
+    display: flex;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 
-footer>address>.author{
+footer>address>.author {
+    color: #000000;
     font-size: x-large;
     font-weight: bolder;
-    color: rgb(42, 255, 70);
     text-shadow: 2px 1px 7px blue;
     word-spacing: -7px;
 }
-footer>address>time{
+
+footer>address>time {
     font-style: normal;
     word-spacing: -5px;
     font-weight: bolder;
@@ -61,10 +79,15 @@ footer>address>time{
         margin: 0;
         padding: 0;
     }
+
     main>article {
         width: 95%;
+        background-size: cover;
+
+        background-attachment: fixed;
     }
-    article>pre{
+
+    article>pre {
         margin-left: 2vw;
     }
 

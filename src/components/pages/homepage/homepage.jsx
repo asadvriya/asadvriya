@@ -3,7 +3,7 @@ import React from 'react'
 export default function HomePage() {
   return (
     <main>
-      <article>
+      <article >
         <pre  >
           <header>
             <h1> Begins with Your Name</h1>

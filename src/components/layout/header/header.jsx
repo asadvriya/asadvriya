@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import logo from '../../../assets/asadvriya-AvR.png';
+import logo from './profile.jpg';
 
 export default function Header() {
   return (
