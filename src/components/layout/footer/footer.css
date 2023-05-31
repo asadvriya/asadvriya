@@ -1,8 +1,121 @@
 #root>footer{
-    background-color: #faebd717;
-    width: 100%;
-    bottom: 9px;
-    height: 48px;
+    bottom: 0;
     position: sticky;
+    font-family: Mina;
+    padding: 7px;
+    display: flex;
+    background-color: rgba(13, 18, 49, 0.541);
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
 
+
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0px 0px 20px #1900ff;
+}
+
+@keyframes avr{
+    0% {
+        color: white;
+        text-shadow: 0px 0px 4px black;
+    }
+    20%{
+        color: rgb(255, 238, 0);
+        text-shadow: 0px 0px 4px rgb(255, 0, 212);
+    }
+    40%{
+        color: rgb(0, 197, 0);
+        text-shadow: 0px 0px 4px rgb(255, 255, 255);
+    }
+    50%{
+        color: rgb(26, 11, 236);
+        text-shadow: 0px 0px 4px rgb(0, 0, 0);
+    }
+    60%{
+        color: rgb(236, 11, 198);
+        text-shadow: 0px 0px 4px rgb(255, 255, 255);
+    }
+    80%{
+        color: rgb(252, 51, 151);
+        text-shadow: 0px 0px 4px rgb(0, 0, 0);
+    }
+
+    100% {
+        color: black;
+        text-shadow: 0px 0px 4px white;
+    }
+}
+.avr{
+    animation-name: avr;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: larger;
+    
+}
+
+.footer-developed{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.developedby{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 7px;
+    align-items: center;
+}
+.developedby>span{
+    padding-right: 7px;    
+    text-shadow: 0 0 3px rgb(17, 155, 17);
+}
+.developedby>a{
+    font-weight: bolder;
+    color: rgb(187, 186, 228);
+    text-decoration: none;
+    padding: 4px;
+    box-shadow: 0px 0px 20px rgb(5, 126, 11);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.footer-details{
+    display: flex;    
+}
+
+.footer-details > li{
+    display: block;
+    list-style: none;
+    padding-right: 7px;
+    text-align: center;
+    margin-right: 7px;
+    line-height: 19px;
+}
+
+.footer-details>li>a{
+    text-decoration: none;
+    color: rgb(223, 241, 58);
+    font-weight: bold;
+    text-shadow: 0px 0px  5px #000;
+}
+.footer-details>li>a:hover{
+    color: #000;
+}
+
+@media screen and (max-width:900px) {
+    #root>footer{
+        margin: 0;
+        
+    }
+}
+@media screen and (max-width:760px) {
+    .footer-hide{
+        display: none;
+    }
 }

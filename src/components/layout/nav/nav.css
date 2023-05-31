@@ -41,6 +41,7 @@ nav {
 .nav-links>li>a:hover {
     background-color: rgba(0, 255, 13, 0.5);
     outline: 1px dashed ghostwhite;
+    color: #000;
 
 }
 
