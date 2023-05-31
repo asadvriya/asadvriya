@@ -60,6 +60,7 @@ footer>address>.author {
     color: #000000;
     font-size: x-large;
     font-weight: bolder;
+    padding-left: 1vw;
     text-shadow: 2px 1px 7px blue;
     word-spacing: -7px;
 }
@@ -69,6 +70,7 @@ footer>address>time {
     word-spacing: -5px;
     font-weight: bolder;
     padding-left: 3vw;
+    padding-right: 2vw;
     text-shadow: 1px 0px rgb(255, 0, 0);
 
 }
