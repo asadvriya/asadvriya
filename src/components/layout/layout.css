@@ -19,9 +19,8 @@ main>article {
 }
 
 article>pre {
-    color: #2d14ab;
+    color: #100dc9;
     background-color: #e672ff26;
-    font-weight: 700;
     border-radius: inherit;
     margin: 10px;
     padding-left: 1vw;
