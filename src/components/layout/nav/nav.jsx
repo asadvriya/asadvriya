@@ -39,7 +39,7 @@ export default function Nav() {
             <a href="/poems">Poems</a>
           </li>
           <li>
-            <a href="/about">About Me</a>
+            <a href="/aboutMe">About Me</a>
           </li>
         </ul>
       </div>
